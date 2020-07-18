@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
 <suite name="nopcommerce" parallel="tests">
 
   
@@ -14,6 +15,8 @@
 			<class name="com.nopcommerce.testCases.TC_Login_Test_001" /> 
 			<class name="com.nopcommerce.testCases.TC_LoginDDT_002" />           
 			<class name="com.nopcommerce.testCases.TC_AddCustomerTest_003" />
+			<class name="com.nopcommerce.testCases.TC_SearchCustomerByEmail_004" /> 
+			<class name="com.nopcommerce.testCases.TC_SearchCustomerByName_005" />  
 		</classes>
 	</test>   
 	
